@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Website Portofolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Navigasi */
+        nav {
+            background-color: #333;
+            padding: 15px;
+            text-align: right;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Section 2 - Judul dan Gambar */
+        .hero {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 40px;
+            background-color: #f4f4f4;
+        }
+
+        .hero .text {
+            flex: 1;
+        }
+
+        .hero img {
+            width: 300px;
+            border-radius: 10px;
+        }
+        
+
+        /* Section 3 - Biodata */
+        .biodata {
+            padding: 40px;
+            background-color: #eaeaea;
+            text-align: center;
+        }
+        
+
+        .biodata table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .biodata td {
+            width: 33%;
+            border: 1px solid #ccc;
+            padding: 20px;
+            background-color: #fff;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        /* Section 4 - Portofolio */
+        .portofolio {
+            padding: 40px;
+            background-color: #f9f9f9;
+            text-align: center;
+        }
+
+        .portofolio table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .portofolio td {
+            width: 33%;
+            border: 1px solid #ccc;
+            padding: 20px;
+            background-color: #fff;
+            vertical-align: top;
+            text-align: center;
+        }
+
+        .portofolio img {
+            width: 100px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Section 1: Navigasi -->
+    <nav>
+        <a href="#beranda">Beranda</a>
+        <a href="#biodata">Biodata</a>
+        <a href="#portofolio">Portofolio</a>
+        <a href="#kontak">Kontak</a>
+    </nav>
+
+    <!-- Section 2: Judul dan Gambar -->
+    <section class="hero" id="beranda">
+        <div class="text">
+            <h1>Selamat Datang di Website saya</h1>
+            <p>Halo, saya Iky. Ini adalah website pribadi saya yang berisi informasi singkat dan karya-karya terbaik saya.</p>
+            <button>Pelajari Lebih lanjut</button>
+        </div>
+        <img src="https://via.placeholder.com/300x200" alt="Foto Profil">
+    </section>
+
+    <!-- Section 3: Biodata -->
+    <section class="biodata" id="biodata">
+        <h2>Biodata</h2>
+        <table>
+            <tr>
+                <td>Nama:<br>Iky</td>
+                <td>Usia:<br>30 Tahun</td>
+                <td>Alamat:<br>Medan</td>
+            </tr>
+            <tr>
+                <td>Email:<br>rizkyandika1504@gmail.com</td>
+                <td>Telepon:<br>0812-6364-8594</td>
+                <td>Pendidikan:<br>S1 Teknik Informatika</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Section 4: Portofolio -->
+    <section class="portofolio" id="portofolio">
+        <h2>Portofolio</h2>
+        <table>
+            <tr>
+                <td>
+                    <img src="https://via.placeholder.com/100" alt="Proyek 1">
+                    <h3>Website Toko Online</h3>
+                    <p>Desain dan pengembangan e-commerce dengan fitur keranjang.</p>
+                </td>
+                <td>
+                    <img src="https://via.placeholder.com/100" alt="Proyek 2">
+                    <h3>Desain Poster</h3>
+                    <p>Desain grafis untuk promosi acara musik dan pameran.</p>
+                </td>
+                <td>
+                    <img src="https://via.placeholder.com/100" alt="Proyek 3">
+                    <h3>Aplikasi To-Do</h3>
+                    <p>Aplikasi sederhana untuk mencatat tugas harian berbasis web.</p>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+</body>
+</html>
